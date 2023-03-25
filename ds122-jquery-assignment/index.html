@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Recuperação Prova 1</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+    
+    <div class='container'>
+        <h1 class='header'>Recuperação Prova 1</h1>
+        <h2>Insira uma nova tarefa</h2>
+        <form id='formTarefa' onsubmit="return cadTask();" action='#' method="POST">
+            <input type="text" name='tarefa' id='txtTask' placeholder="Nova Tarefa">
+            <input type="submit" name='submit' id='btnSubmit' value='Enviar'>
+        </form>
+        <h2>Tarefas não concluídas</h2>
+        <ul id='ulUncompleted'>
+
+        </ul>
+        <h2>Tarefas concluídas</h2>
+        <ul id='ulCompleted'>
+
+        </ul>
+    </div>
+</body>
+<script src="js/tarefa.js"></script>
+</html>
+
